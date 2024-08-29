@@ -47,3 +47,15 @@ const perguntas = [
         ]
     }
 ];
+
+    let atual = 0;
+    let perguntaAtual;
+    let históriaFinal = "";
+
+      function  mostraPergunta(){
+        if  (atual >= perguntas.length){
+            mostraResultado ();
+            return;
+      }
+
+      perguntaAtual = pergu
