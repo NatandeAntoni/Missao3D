@@ -1,4 +1,3 @@
-
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -17,7 +16,7 @@ const perguntas = [
                 texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
                 afirmacao: "afirmacao2"
             }
-           
+
         ]
     },
     {
@@ -31,7 +30,7 @@ const perguntas = [
                 texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
                 afirmacao: "afirmacao4"
             }
-           
+
         ]
     },
     {
@@ -39,11 +38,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                afirmacao: "afirmacao5"
             },
             {
                 texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                afirmacao: "afirmacao6"
             }
         ]
     }
